@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/pexels-expect-best-323705.jpg') center center;
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title {
+    margin-top:  10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.col{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 182px;
+  
+}
+.col div{
+    width: 250px;
+    text-align: center;
+    
+}
+input{
+    width: 60%;
+    height: 50px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);  
+    border-radius: 5px;
+    font-size: 52px;
+    text-align: center;
+}
